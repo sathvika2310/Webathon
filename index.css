@@ -1,0 +1,162 @@
+.img1{
+    height:200px;
+    width: 200px;
+}
+
+.header{
+    
+    display: flex;
+    font-size:larger;
+    width: 100%;
+    height: 600px;
+
+}
+.form{
+    padding: 10px;
+    padding-left: 50px;
+    text-align: right;
+}
+.bar {
+    height: 50%;
+    padding: 0px 10px;
+    margin-top: 15px;
+    margin-right: 90px;
+    border-radius: 15px;
+    width: 350px;
+     margin-left: 20px;
+     float: right;
+     cursor:auto;
+    }
+
+
+.cash{
+    background-color: rgba(128, 128, 128, 0.104);
+}
+.flex{
+    display: flex;
+}
+
+button{
+    background-color: rgb(255, 217, 0);
+    color:black;
+    font-weight: bold;
+    padding: 10px 10px;
+    border:none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+  h6{
+    color:red;
+    letter-spacing: normal;
+    padding: 20px;
+    align-self:center;    
+  }
+ 
+  div .group{ 
+        width: 100%;
+        
+  }
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding:0in;
+    position: fixed;
+    background-image: linear-gradient( orange , white,green) ;
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+}
+nav ul{
+    display: inline;
+    list-style: none;
+}
+nav ul a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: rgb(1, 6, 6);
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    color: cornflowerblue;
+    transition: all 0.4s ease 0s; 
+}
+nav img{
+    width: 20%;
+    height: 70px;
+    margin: 4px;
+    float: inline-start;
+    
+}
+
+.image img {
+    width: 100%;
+    height: 750px;
+    background-size: cover; 
+    background-position: center;
+  }
+
+
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(241, 237, 237, 0.873);
+    min-width: 300px;
+    font-size: 1px;
+    top: 49px;
+    z-index: 1;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .dropdown:hover .drop-content {
+    display: block;
+  }
+  
+  .drop-content a {
+    padding: 12px 10px;
+    border-bottom: 1px solid rgb(18, 18, 175);
+    display: block;
+    transition: all 0.5s ease !important;
+  }
+
+  .dropBtn .drop-content a:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  .dropdown:hover .dropBtn {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+  i{
+    position: absolute;
+    padding: 26px 429px;
+    margin-right: 50px;
+  }
+

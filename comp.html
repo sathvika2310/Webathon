@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="comp.css" />
+    
+  </head>
+  
+  <body>
+   <form> 
+    <div class="header">
+        <img src="com.png">
+    </div>
+    
+  <div class="container">
+    
+    
+    
+    <h1>COMPLAINT REGISTRATION FORM</h1>
+    <div class="points">
+        <h5>POINTS TO REMEMBER</h5>
+      <ol>
+      <li>You can use this form to register your complaints</li>
+      <li>False complaints are subject to prosecution under IPC</li>
+    </ol>
+    <hr>
+    </div>
+    
+    
+    
+<div class="states">
+    <label for="state">Select your state</label>
+    <select name="state" id="state">
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Assam">Assam</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Chattisgarh">Chattisgarh</option>
+      <option value="Goa">Goa</option>
+      <option value="Gujarat">Gujarat</option>
+      <option value="Haryana">Haryana</option>
+      <option value="Himachal Pradesh">Himachal Pradesh</option>
+      <option value="Jammu and kashmir">Jammu and Kashmir</option>
+      <option value="Jharkand">Jharkand</option>
+      <option value="Karnataka">Karnataka</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Maharastra">Maharastra</option>
+      <option value="Manipur">Manipur</option>
+      <option value="Meghalaya">Meghalaya</option>
+      <option value="Mizoram">Mizoram</option>
+      <option value="Nagaland">Nagaland</option>
+      <option value="Odisha">Odisha</option>
+      <option value="Punjab">Punjab</option>
+      <option value="Rajasthan">Rajasthan</option>
+      <option value="Sikkim">Sikkim</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Telangana">Telangana</option>
+      <option value="Tripura">Tripura</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Uttarakhand">Uttarakhand</option>
+      <option value="West Bengal">West Bengal</option>
+    </select>
+  </div>
+  <br>
+        <div class="dist">
+          <label for="district" >District</label>
+          <input type="text" name="district"  id="district" placeholder="District">
+        </div>
+        <h3>
+            Details of Complainant
+        </h3>
+        <div class="details">
+            
+          <label for="Name"> Name</label>
+          <input type="text" name="name" placeholder="Complainant name" id="complainantname">
+        </div>
+        <br>
+    <div class="gender">
+
+        <label for="Gender">Select Gender</label>
+        <select name="gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Transgender">Transgender</option>
+        </select>
+    </div>
+    <br>
+    <div class="dob">
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob">
+      </div>
+    <br>
+        
+      <div class="add">
+        <label for="Address">Address</label><br>
+        <textarea name="Address" placeholder="Address"id="Address" cols="60" rows="3"></textarea>
+      
+      </div>
+      <br>
+      <div class="mob">
+        <label for="mobileno.">Mobile number</label>
+        <input type="number" name="mobileno." id="mobileno." placeholder="+91">
+      </div>
+      <br>
+      <div class="email">
+        <label for="E-Mail ID">E-Mail ID</label>
+        <input type="text" name="E-Mail ID" id="E-Mail ID" placeholder="e-mail">
+      </div>
+      <br>
+        
+        <div class="details">
+            <label for="Subject">Select your subject</label>
+            <select name="subject" id="subject">
+              <option value="Person Missing">Person Missing</option>
+              <option value="Vehicle Missing/Theft">Vehicle Missing/Theft</option>
+              <option value="Cell Phone Missing/Theft">Cell Phone Missing/Theft</option>
+              <option value="Jewel Snatching">Jewel Snatching</option>
+              <option value="Bag Lifting">Bag Liftinh</option>
+              <option value="Document Missing">Document Missing</option>
+              <option value="Cheating/Embezzlement/Land Grabbing">Cheating/Embezzlement/Land Grabbing</option>
+              <option value="Making Counterfeit Notes/Coins">Making Counterfeit Notes/Coins</option>
+              <option value="Murder">Murder</option>
+              <option value="Kidnapping">Kidnapping</option>
+              <option value="Public Nuisance">Public Nuiscance</option>
+              <option value="Eve Teasing">Eve Teasing</option>
+              <option value="Traffic Violation">Traffic Violation</option>
+              <option value="Rape">Rape</option>
+              <option value="Offence related to Marraige">Offence related to Marraige</option>
+              <option value="Ganja Sales/Illegal Mining etc">Ganja Sales/Illegal Mining etc</option>
+            </select>
+        </div>
+        <br>
+            <div class="date">
+                <label for="date of occurence">Date of occurence</label>
+                <input type="date" name="Date of occurence" id="Date of occurence">
+                
+            </div>
+            <br>
+            <div class="place">
+                <label for="place of occurence">Place of occurence</label><br>
+                <textarea name="Place of occurence" placeholder="Place of occurence(Max.200 characters allowed)"id="place of occurence" cols="60" rows="5"></textarea>
+            </div>
+            <br>
+            <div class="des">
+                <label for="Description">Description</label><br>
+                <textarea name="Description" placeholder="Complaint Description(Max.200 characters allowed)" id="description"  cols="60" rows="5"></textarea>
+            </div>
+            <br>
+        <button>Confirm</button>
+    
+</div>
+</form>
+  </body>
+</html>
